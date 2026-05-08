@@ -1,0 +1,7 @@
+site,valid_pixels,total_acres_est,images_used,median_score,median_confidence,investigate_pixels,investigate_acres_est,investigate_pct,monitor_pixels,monitor_acres_est,monitor_pct,stable_pixels,stable_acres_est,stable_pct,strong_pixels,strong_acres_est,strong_pct,eligible_canopy_pixels,eligible_canopy_acres_est,canopy_min_valid_obs,canopy_ndvi_p75_min,canopy_ndvi_median_min,canopy_evi2_p75_min,median_clear_observations_canopy,zone_vector_patches,zone_vector_file
+fresno_site_1,113255,2798.59,8,0.164,0.5,23866,589.74,21.07,18226,450.37,16.09,43067,1064.21,38.03,28096,694.27,24.81,113255,2798.59,4,0.35,0.2,0.22,8.0,1638,fresno_site_1_zones.geojson
+kern_site_1,794,19.62,8,0.211,0.625,0,0.0,0.0,9,0.22,1.13,711,17.57,89.55,74,1.83,9.32,794,19.62,4,0.35,0.2,0.22,8.0,126,kern_site_1_zones.geojson
+kings_site_1,244547,6042.89,8,0.28,0.5,9080,224.37,3.71,108660,2685.05,44.43,121020,2990.47,49.49,5787,143.0,2.37,244547,6042.89,4,0.35,0.2,0.22,6.0,2416,kings_site_1_zones.geojson
+partner_site_1,3595,88.83,8,0.194,0.625,688,17.0,19.14,621,15.35,17.27,1620,40.03,45.06,666,16.46,18.53,3595,88.83,4,0.35,0.2,0.22,8.0,64,partner_site_1_zones.geojson
+stanislaus_site_1,517747,12793.81,8,0.298,0.625,126309,3121.16,24.4,110466,2729.67,21.34,208466,5151.31,40.26,72506,1791.66,14.0,517747,12793.81,4,0.35,0.2,0.22,8.0,6983,stanislaus_site_1_zones.geojson
+tulare_site_1,26728,660.46,8,0.313,0.625,7447,184.02,27.86,5255,129.85,19.66,10536,260.35,39.42,3490,86.24,13.06,26728,660.46,4,0.35,0.2,0.22,8.0,335,tulare_site_1_zones.geojson

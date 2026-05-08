@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "stanislaus_site_1",
+"features": [
+{
+"type": "Feature",
+"properties": { "site_name": "stanislaus_site_1" },
+"geometry": {
+"type": "Polygon",
+"coordinates": [[
+[-120.83,37.32],
+[-120.75,37.32],
+[-120.75,37.40],
+[-120.83,37.40],
+[-120.83,37.32]
+]]
+}
+}
+]
+}

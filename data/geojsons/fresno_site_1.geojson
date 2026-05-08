@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "fresno_site_1",
+"features": [
+{
+"type": "Feature",
+"properties": { "site_name": "fresno_site_1" },
+"geometry": {
+"type": "Polygon",
+"coordinates": [[
+[-119.82,36.42],
+[-119.78,36.42],
+[-119.78,36.46],
+[-119.82,36.46],
+[-119.82,36.42]
+]]
+}
+}
+]
+}

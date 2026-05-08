@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "tulare_site_1",
+"features": [
+{
+"type": "Feature",
+"properties": { "site_name": "tulare_site_1" },
+"geometry": {
+"type": "Polygon",
+"coordinates": [[
+[-119.18,36.12],
+[-119.12,36.12],
+[-119.12,36.18],
+[-119.18,36.18],
+[-119.18,36.12]
+]]
+}
+}
+]
+}

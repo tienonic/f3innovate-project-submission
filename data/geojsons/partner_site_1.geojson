@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "partner_site_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "site_name": "partner_site_1", "id": null, "Name": "Partner Site 1", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -119.502372630295497, 36.604711284800928, 0.0 ], [ -119.497901592319806, 36.60468405995001, 0.0 ], [ -119.497861673498903, 36.608081164411743, 0.0 ], [ -119.495695116257906, 36.608082336015158, 0.0 ], [ -119.495628678917598, 36.611770766621177, 0.0 ], [ -119.502320683629094, 36.611831416555731, 0.0 ], [ -119.502372630295497, 36.604711284800928, 0.0 ] ] ] } }
+]
+}

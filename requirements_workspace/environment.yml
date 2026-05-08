@@ -1,0 +1,13 @@
+name: f3-orchard-stress
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11,<3.15
+  - geopandas
+  - matplotlib
+  - numpy
+  - pandas
+  - pymupdf
+  - rasterio
+  - requests>=2.33.1
+  - shapely

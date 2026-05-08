@@ -1,0 +1,56 @@
+{
+  "pipeline": "Persistent Orchard Underperformance Mapper",
+  "indices_used": [
+    "NDVI",
+    "NDMI",
+    "NDRE",
+    "EVI2"
+  ],
+  "scl_masked_classes": [
+    0,
+    1,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "canopy_mask": {
+    "min_valid_obs": 4,
+    "ndvi_p75_min": 0.35,
+    "ndvi_median_min": 0.2,
+    "evi2_p75_min": 0.22,
+    "min_component_pixels": 3
+  },
+  "years_requested": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "season_start": "06-01",
+  "season_end": "08-31",
+  "cloud_lt": 15.0,
+  "stac_source": "auto",
+  "images_per_year": 2,
+  "min_zone_pixels": 9,
+  "underperformance_rule": "Mean robust within-site deficit across eligible canopy pixels; scout-first requires score >= 0.75, persistence >= 0.50, confidence >= 0.50.",
+  "agreement_rule": "At least two indices below -0.5 robust z-score in a pixel-year support underperformance agreement.",
+  "confidence_rule": "Valid-year fraction multiplied by an agreement-weighted confidence term.",
+  "sites_completed": [
+    "fresno_site_1",
+    "kern_site_1",
+    "kings_site_1",
+    "partner_site_1",
+    "stanislaus_site_1",
+    "tulare_site_1"
+  ],
+  "outputs": {
+    "rasters": "*_canopy_mask.tif, *_underperformance_mask.tif, *_zones.tif, *_underperformance_score.tif, *_persistence.tif, *_confidence.tif, *_mean_ndvi.tif",
+    "vectors": "*_zones.geojson",
+    "tables": "spatial_zone_summary.csv, zone_timeseries_all_sites.csv, output/report/scouting_priority_table.csv",
+    "figures": "*_stress_zones.png, *_canopy_mask_diagnostic.png, *_zone_timeseries.png, spatial_zone_maps.png"
+  }
+}
